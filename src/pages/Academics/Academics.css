@@ -1,0 +1,256 @@
+.a-header-hero {
+    width: 495px;
+    height: 755px;
+}
+
+.academics {
+    height: auto;
+}
+
+.aHeader-left {
+    position: relative;
+}
+
+.a-header-red {
+    position: absolute;
+    z-index: -1;
+}
+
+.a-evc {
+    position: relative;
+    z-index: -7;
+    margin-top: -32px;
+}
+
+.evc-nav {
+    display: flex;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 570;
+    line-height: 27px;
+    gap: 110px;
+    color: #2D2D2D80;
+    border-bottom: 3px solid #2D2D2D1A
+}
+
+.evc-hover-boxses {
+    position: relative;
+    margin-top: 0;
+}
+
+.evc-hover-boxs {
+    position: absolute;
+    z-index: -99;
+    width: 100%;
+}
+
+.evc-hover-boxs {
+    background: linear-gradient(158.3deg, #F0F0F0 36.21%, rgba(241, 241, 241, 0) 86.77%);
+    width: 222px;
+    height: 218px;
+
+}
+
+.evc-IS {
+    margin-top: 0;
+    padding-top: 105px;
+    gap: 169px;
+}
+
+.evc-IS-box {
+    flex-direction: row;
+    gap: 38px;
+}
+
+.aevc-2 {
+    left: 423;
+}
+
+.university-dormitory {
+    display: flex;
+    margin-top: 98px;
+    gap: 20px;
+}
+
+.UD-left-topBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UD-left-topBox ul h1,
+h2,
+h3 {
+    font-family: Epilogue;
+    font-size: 52px;
+    font-weight: 570;
+    line-height: 53.3px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.UD-left-topBox ul h2,
+h3 {
+    color: #2D2D2D80;
+
+
+}
+
+.UD-left-topBox img {
+    width: 288px;
+    height: 201px;
+}
+
+.UD-left-middleBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 656px;
+    height: 429px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    gap: 8px;
+}
+
+.UD-left-middleBox img {
+    position: absolute;
+    width: 656px;
+    height: 429px;
+    z-index: -8;
+}
+
+.UD-left-middleBox h1 {
+    font-family: Epilogue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.UD-left-middleBox p,
+.UD-left-middleBox li {
+    font-family: Epilogue;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15.37px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.UD-left-bottomBox h1 {
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 47.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2D2D2DE5;
+    width: 559px;
+    margin-top: 39px;
+}
+
+.UD-left-bottomBox p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 559px;
+    color: #2D2D2DCC;
+    margin-top: 18px;
+}
+
+.UD-left-bottomBox a {
+    text-decoration: underline;
+    color: #2D2D2D80;
+    display: block;
+    margin-top: 31px;
+}
+
+.UD-right-box img {
+    width: 405px;
+    height: 649px;
+}
+
+.UD-right-box ul {
+    margin-top: 36px;
+}
+
+.UD-right-box ul li {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    list-style: circle;
+    margin-bottom: 36px;
+    color: #2D2D2D80;
+
+}
+
+.ED-box {
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.ed-box {
+    position: absolute;
+    background: #C4C4C440;
+    width: 100%;
+    height: 628px;
+    z-index: 222;
+    top: 0;
+}
+
+.ED-nav-bot {
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ED-nav-bot ul {
+    display: flex;
+    gap: 52px;
+    padding-bottom: 10px;
+}
+
+.ED-nav-bot ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF80;
+}
+
+.ed-span {
+    box-shadow: 0px -18px 32px 4px #FFFFFF;
+    background-color: #fff;
+    width: 109px;
+    height: 2px;
+    margin-top: 28px;
+    display: none;
+}
+.ED-nav-bot ul li:hover .ed-span{
+    display: block;
+}
+.ED-nav-bot ul li:hover .active{
+    display: none;
+}
+.ED-nav-bot ul li:hover{
+    color: #fff;
+}

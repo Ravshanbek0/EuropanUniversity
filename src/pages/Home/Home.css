@@ -1,0 +1,229 @@
+.home {
+    margin-top: 103px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-left h1 {
+    width: 589px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 102.5px;
+    margin-top: 34px;
+}
+
+.header-left h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 40px;
+    width: 417px;
+}
+
+.header-left a {
+    display: block;
+    text-decoration: underline;
+    color: #00000080;
+    margin-top: 55px;
+}
+
+.header-right {
+    position: relative;
+}
+
+.header-right .header-hero {
+    width: 449px;
+    height: 568px;
+}
+
+.header-red {
+    position: absolute;
+    z-index: 9;
+    top: -14px;
+    right: -22px;
+}
+
+.header-green {
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: -32px;
+}
+
+.social-medias img {
+    object-fit: contain;
+}
+
+.icons-services {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 130px;
+}
+
+.serv-boxIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serv-boxIcon h1 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.serv-boxIcon p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #2D2D2D;
+
+
+}
+
+.art-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 31px;
+}
+
+.art-box-img {
+    overflow: hidden;
+    width: 330px;
+    height: 330px;
+    transition: .7s;
+}
+
+.art-news img {
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.art-h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.art-box {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.art-box:hover.art-box img {
+    transform: scale(1.1);
+    transition: .7s;
+
+}
+
+.art-box h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.text-p-art {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.art-design {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6FBFF9;
+}
+
+.art-art {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #009379;
+}
+
+.conatact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 101px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.contact-left h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+
+}
+
+.contact-left p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #2D2D2D;
+    width: 331px;
+    margin-top: 47px;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact-right input {
+    width: 530px;
+    height: 70px;
+    margin-bottom: 27px;
+    background: #DFDFDF;
+    border: none;
+    outline: none;
+    padding: 24px 33px;
+    font-size: 17px;
+}
+
+.contact-right textarea {
+    width: 530px;
+    height: 196px;
+    background: #DFDFDF;
+    padding: 24px 33px;
+    border: none;
+    outline: none;
+}
+
+#contact-btn {
+    width: 235px;
+    height: 80px;
+    background-color: #2D2D2D;
+    color: #fff;
+    margin-top: 28px;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Epilogue", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.logo{
+    width: 199px;
+    height: 53px;
+}
