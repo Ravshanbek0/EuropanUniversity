@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .logo{
     width: 199px;

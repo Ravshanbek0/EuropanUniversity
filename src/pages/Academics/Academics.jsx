@@ -99,6 +99,39 @@ function Academics() {
                         </div>
                     </div>
                 </section>
+                <section className="academics-men">
+                    <div className="academics-men-box">
+                        <img src="./imgs/academics/AdamCrowley.png" alt="" />
+                        <h1>Albert Jacobs</h1>
+                        <p>head of department
+                        </p>
+                    </div>
+                    <div className="academics-men-box">
+                        <img src="./imgs/academics/Magrit Stiffel.png" alt="" />
+                        <h1>Albert Jacobs</h1>
+                        <p>head of department
+                        </p>
+                    </div>
+                    <div className="academics-men-box">
+                        <img src="./imgs/academics/Kris Rollins.png" alt="" />
+                        <h1>Albert Jacobs</h1>
+                        <p>head of department
+                        </p>
+                    </div>
+                    <div className="academics-men-box">
+                        <img src="./imgs/academics/India Blake.png" alt="" />
+                        <h1>Albert Jacobs</h1>
+                        <p>head of department
+                        </p>
+                    </div>
+                    <div className="academics-men-box">
+                        <img src="./imgs/academics/Ajani Kimathi.png" alt="" />
+                        <h1>Albert Jacobs</h1>
+                        <p>head of department
+                        </p>
+                    </div>
+
+                </section>
                 <div className="conatact">
                     <div className="contact-left">
                         <h1>Lets study together</h1>
