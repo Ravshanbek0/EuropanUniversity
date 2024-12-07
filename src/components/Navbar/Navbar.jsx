@@ -4,17 +4,19 @@ import { Link, NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className='container'>
-      <div className="nav">
-        <Link to={'/'}><div className="logo">
-          <img src="./imgs/logo.png" alt="" />
+    <div className="nav-bar">
+      <div className='container'>
+        <div className="nav">
+          <Link to={'/'}><div className="logo">
+            <img src="./imgs/logo.png" alt="" />
+          </div>
+          </Link>
+          <ul>
+            <NavLink to={'/about'}><li className='nav-to'>About</li></NavLink>
+            <NavLink to={'/academics'}><li className='nav-to'>Academics</li></NavLink>
+            <li className='nav-to'>Contact</li>
+          </ul>
         </div>
-        </Link>
-        <ul>
-          <NavLink to={'/'}><li>About</li></NavLink>
-          <NavLink to={'/academics'}><li>Academics</li></NavLink>
-          <li>Contact</li>
-        </ul>
       </div>
     </div>
   )

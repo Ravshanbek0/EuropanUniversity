@@ -1,0 +1,208 @@
+.about-header {
+    display: flex;
+    margin-top: 118px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left-header {
+    position: relative;
+    /* border: 1px solid; */
+    height: auto;
+    padding-bottom: 219px;
+    /* width: 70%; */
+}
+
+.about-left-header h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 102.5px;
+    text-align: left;
+    color: #2D2D2D;
+    width: 572px;
+    margin-left: 15px;
+}
+
+.about-header p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2D2D2D;
+    position: absolute;
+    left: 289px;
+}
+
+.about-header h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20.5px;
+    color: #2D2D2D80;
+    position: absolute;
+    top: 18px;
+    left: 400px;
+}
+
+.about-header h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20.5px;
+    color: #2D2D2D80;
+    position: absolute;
+    top: 40px;
+    left: 530px;
+}
+
+.shape-about-h {
+    position: absolute;
+    z-index: -77;
+    top: 129px;
+    width: 368px;
+    height: 363px;
+    left: 0;
+}
+
+.img-aboutH {
+    position: absolute;
+    z-index: 76;
+    bottom: 0;
+    width: 448px;
+    height: 412px;
+    top: 180px;
+}
+
+.about-blue-header {
+    width: 72px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.about-right-header img {
+    width: 425px;
+    height: 528px;
+}
+
+.about-right-header {
+    position: relative;
+}
+
+.about-right-header h1 {
+    position: absolute;
+    top: 159px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    z-index: 27;
+    margin-left: 40px;
+}
+
+.about-top-box {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.about-dormitory-years {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-dormitory-years li {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2D2D2D80;
+
+}
+
+.about-dormitory-years span {
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 49.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2D2D2DE5;
+
+}
+
+.about-left-topBox img {
+    width: 412px;
+}
+
+.about-art-topBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 90px;
+}
+
+.aRTbox-img-top {
+    width: 757px;
+    height: 505px;
+}
+
+.aRTbox-img-top2 {
+    width: 305px;
+    height: 505px;
+}
+
+.about-art-left h1 {
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 49.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #424242;
+
+}
+
+.about-art-left p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2D2D2DCC;
+    width: 714px;
+    margin-top: 14px;
+}
+
+.about-art-right {
+    position: relative;
+}
+
+.about-art-right h1 {
+    position: absolute;
+    top: 108px;
+    left: 57px;
+    font-family: Epilogue;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+
+    z-index: 99;
+}
+
+.about-art-right img {
+    width: 305px;
+    height: 232px;
+}
+.pagination-about{
+    display: flex;
+    justify-content: end;
+    padding-top: 66px;
+}
