@@ -1,5 +1,6 @@
 import React from 'react'
 import './Academics.css'
+import { Link } from 'react-router-dom'
 
 function Academics() {
     return (
@@ -26,22 +27,27 @@ function Academics() {
                     <div className="evc-hover-boxses">
                         <div className="evc-hover-boxs">
                             <div className="evc-hover-boxs"></div>
-                            <div className="evc-hover-boxs aevc-2"></div>
-                            <div className="evc-hover-boxs"></div>
+                           
                         </div>
                         <div className="icons-services evc-IS">
-                            <div className="serv-boxIcon evc-IS-box">
-                                <img src="./imgs/blue-icon.png" alt="" />
-                                <h1>Design</h1>
-                            </div>
-                            <div className="serv-boxIcon evc-IS-box">
-                                <img src="./imgs/red-icon.png" alt="" />
-                                <h1>History</h1>
-                            </div>
-                            <div className="serv-boxIcon evc-IS-box">
-                                <img src="./imgs/green-icon.png" alt="" />
-                                <h1>Art</h1>
-                            </div>
+                            <Link to={'/design'}>
+                                <div className="serv-boxIcon evc-IS-box">
+                                    <img src="./imgs/blue-icon.png" alt="" />
+                                    <h1>Design</h1>
+                                </div>
+                            </Link>
+                            <Link to={"/history"}>
+                                <div className="serv-boxIcon evc-IS-box">
+                                    <img src="./imgs/red-icon.png" alt="" />
+                                    <h1>History</h1>
+                                </div>
+                            </Link>
+                            <Link to={'/art'}>
+                                <div className="serv-boxIcon evc-IS-box">
+                                    <img src="./imgs/green-icon.png" alt="" />
+                                    <h1>Art</h1>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </section>

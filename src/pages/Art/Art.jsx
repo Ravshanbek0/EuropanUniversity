@@ -9,7 +9,7 @@ function Art() {
                     <ul>
                         <li>art design</li>
                         <li>art teacher</li>
-                        <li>painter</li>
+                        <li>painter </li>
                     </ul>
                     <img src="./imgs/design/Art.png" alt="" />
                     <p>The Faculty of Art was opened in 1996 and is It is also the most funded department in the university. Every six universities have this direction: Amsterdam (Europe), Kiev (Slavs), Tokyo (Asia), Bali(Indonesia), Krakow(Europe), Paris(Europe). More than 10,000 specialists are already working in their field, having the status of our university.</p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -19,21 +20,26 @@ function Home() {
           </div>
         </div>
         <div className="icons-services">
-          <div className="serv-boxIcon">
-            <img src="./imgs/blue-icon.png" alt="" />
-            <h1>Design</h1>
-            <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
-          </div>
-          <div className="serv-boxIcon">
-            <img src="./imgs/red-icon.png" alt="" />
-            <h1>History</h1>
-            <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
-          </div>
-          <div className="serv-boxIcon">
-            <img src="./imgs/green-icon.png" alt="" />
-            <h1>Art</h1>
-            <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
-          </div>
+          <Link to={'/design'}>
+            <div className="serv-boxIcon">
+              <img src="./imgs/blue-icon.png" alt="" />
+              <h1>Design</h1>
+              <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
+            </div></Link>
+          <Link to={'/history'}>
+            <div className="serv-boxIcon">
+              <img src="./imgs/red-icon.png" alt="" />
+              <h1>History</h1>
+              <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
+            </div>
+          </Link>
+          <Link  to={'/art'}>
+            <div className="serv-boxIcon">
+              <img src="./imgs/green-icon.png" alt="" />
+              <h1>Art</h1>
+              <p>The Faculty of Design offers modern teaching technologies in IT and applied fields</p>
+            </div>
+          </Link>
         </div>
         <h1 className="art-h1">
           Art news
@@ -112,7 +118,7 @@ function Home() {
             <img src="./imgs/contact.png" alt="" />
           </div>
           <div className="contact-right">
-            <input type="text" placeholder='Name'/>
+            <input type="text" placeholder='Name' />
             <input type="text" placeholder='Email' />
             <textarea name="" id="" placeholder='Type your massage hear'></textarea>
             <button id='contact-btn'>Submit</button>
